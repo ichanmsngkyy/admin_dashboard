@@ -4,6 +4,219 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="nav">
+        <div class="nav_top">
+          <div class="search">
+            <span class="mdi mdi-magnify"></span>
+            <form action="">
+              <label for="search"></label>
+              <input type="text" id="search" name="search" />
+            </form>
+          </div>
+          <div class="profile">
+            <span class="mdi mdi-bell-ring-outline"></span>
+            <p>Profile</p>
+            <p>Morgan Oakley</p>
+          </div>
+        </div>
+        <div class="nav_bottom">
+          <div class="nav_profile">
+            <div class="big_logo">
+              <span>LOGO</span>
+            </div>
+            <div class="greetings">
+              <p>Hi there,</p>
+            </div>
+            <div class="name">
+              <p>Morgan Oakley (@morgan)</p>
+            </div>
+          </div>
+          <div class="nav_buttons">
+            <form action="">
+              <button>New</button>
+              <button>Upload</button>
+              <button>Share</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="logo">
+          <span class="mdi mdi-view-dashboard"></span>
+          <p>Dashboard</p>
+        </div>
+        <div class="sidebar_nav">
+          <div class="first_section">
+            <div class="home">
+              <span class="mdi mdi-home"></span>
+              <p>Home</p>
+            </div>
+            <div class="profile_side">
+              <span class="mdi mdi-card-account-details-outline"></span>
+              <p>Profile</p>
+            </div>
+            <div class="message">
+              <span class="mdi mdi-message"></span>
+              <p>Message</p>
+            </div>
+            <div class="history">
+              <span class="mdi mdi-history"></span>
+              <p>History</p>
+            </div>
+            <div class="task">
+              <span class="mdi mdi-note-multiple"></span>
+              <p>Tasks</p>
+            </div>
+            <div class="communities">
+              <span class="mdi mdi-account-group"></span>
+              <p>Communities</p>
+            </div>
+          </div>
+          <div class="second_section">
+            <div class="settings">
+              <span class="mdi mdi-cog"></span>
+              <p>Settings</p>
+            </div>
+            <div class="support">
+              <span class="mdi mdi-help-box"></span>
+              <p>Support</p>
+            </div>
+            <div class="privacy">
+              <span class="mdi mdi-shield-check"></span>
+              <p>Privacy</p>
+            </div>
+          </div>
+        </div>
+        <div class="logout">
+          <span class="mdi mdi-logout"></span>
+          <p>Logout</p>
+        </div>
+      </div>
+      <div class="projects_dashboard">
+        <h2>Your Project</h2>
+        <div class="card_project">
+          <div class="card">
+            <p class="title">Super Cool Project</p>
+            <p>
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </p>
+            <div class="icons">
+              <div class="card_logo">Logo 1</div>
+              <div class="card_logo">Logo 2</div>
+              <div class="card_logo">Logo 3</div>
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Less Cool Project</p>
+            <p>
+              Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+              sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis
+              sem purus, dignissim ut sapien in, varius pellentesque lacus.
+            </p>
+            <div class="icons">
+              <div class="card_logo">Logo 1</div>
+              <div class="card_logo">Logo 2</div>
+              <div class="card_logo">Logo 3</div>
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Impossible App</p>
+            <p>
+              In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+              placerat velit sagittis id.
+            </p>
+            <div class="icons">
+              <div class="card_logo">Logo 1</div>
+              <div class="card_logo">Logo 2</div>
+              <div class="card_logo">Logo 3</div>
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Easy Peasy App</p>
+            <p>
+              Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+              urna eget accumsan aliquam. Curabitur dignissim nisl in tortor
+              commodo, ac bibendum magna tincidunt.
+            </p>
+            <div class="icons">
+              <div class="card_logo">Logo 1</div>
+              <div class="card_logo">Logo 2</div>
+              <div class="card_logo">Logo 3</div>
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Ad Blocker</p>
+            <p>
+              Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
+              pharetra hendrerit felis. Aliquam sed malesuada eros.
+            </p>
+            <div class="icons">
+              <div class="card_logo">Logo 1</div>
+              <div class="card_logo">Logo 2</div>
+              <div class="card_logo">Logo 3</div>
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Money Maker</p>
+            <p>
+              Praesent convallis, libero quis congue elementum, nunc ante
+              faucibus sapien, ac scelerisque tortor purus sit amet ex.
+              Pellentesque mollis nec sem vel aliquam.
+            </p>
+            <div class="icons">
+              <div class="card_logo">Logo 1</div>
+              <div class="card_logo">Logo 2</div>
+              <div class="card_logo">Logo 3</div>
+            </div>
+          </div>
+        </div>
+        <h2>Announcement</h2>
+        <div class="right_side">
+          <div class="announcement">
+            <div class="site">
+              <div class="announcement_title">Site Maintenances</div>
+            </div>
+            <div class="com_share">
+              <div class="announcement_title">Community Share Day</div>
+            </div>
+            <div class="privacy_policy">
+              <div class="announcement_title">Updated Privacy Policy</div>
+            </div>
+          </div>
+          <div class="trending">
+            <h2></h2>
+            <div class="trending_profile">
+              <span>LOGO</span>
+              <p class="username">@tegan</p>
+              <p class="bio">World Peace builder</p>
+            </div>
+            <div class="trending_profile">
+              <span>LOGO</span>
+              <p class="username">@morgan</p>
+              <p class="bio">Super Cool Project</p>
+            </div>
+            <div class="trending_profile">
+              <span>LOGO</span>
+              <p class="username">@kendall</p>
+              <p class="bio">Life Changing App</p>
+            </div>
+            <div class="trending_profile">
+              <span>LOGO</span>
+              <p class="username">@alex</p>
+              <p class="bio">No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
