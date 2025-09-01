@@ -6,6 +6,7 @@
   --yellow: #f0b429;
   --share-icons: #313131;
   --blue: #1992d4;
+  --blue-hover: #107db8;
   --gray-font: #5e5e5e;
 }
 
@@ -277,6 +278,32 @@ button:focus {
   font-weight: bold;
   align-items: center;
   width: 100%;
+}
+
+.home:hover,
+.home:focus,
+.profile_side:hover,
+.profile_side:focus,
+.message:hover,
+.message:focus,
+.history:hover,
+.history:focus,
+.task:hover,
+.task:focus,
+.communities:hover,
+.communities:focus,
+.settings:hover,
+.settings:focus,
+.support:hover,
+.support:focus,
+.privacy:hover,
+.privacy:focus,
+.logout:hover,
+.logout:focus {
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--blue-hover);
+  border-radius: 20px;
 }
 
 .projects_dashboard {
