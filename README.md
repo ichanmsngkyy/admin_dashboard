@@ -1,5 +1,4 @@
 ***Project: Admin Dashboard***
-
 ===
 
 This is the final project of [Intermediate HTML and CSS Course](https://www.theodinproject.com/lessons/intermediate-html-and-css-admin-dashboard) of [The Odin Project] (https://www.theodinproject.com). The goal is to build a responsive admin page using Grid and Flexbox.
